@@ -80,9 +80,9 @@ def get_tweets(search, is_Hashtag):
 
     # Generate a filename for hashtags or specific word in google drive
     if is_Hashtag:
-        filename = path + '/drive/MyDrive/travel/' + search[1:] + '_hashtag.csv'
+        filename = path + '/drive/MyDrive/folder_name/' + search[1:] + '_hashtag.csv'
     else:
-        filename = path + '/drive/MyDrive/travel/' + search.replace(" ", "") + '_wordsearch.csv'
+        filename = path + '/drive/MyDrive/folder_name/' + search.replace(" ", "") + '_wordsearch.csv'
     # Save the csv file
     df_temp.to_csv(filename)
 
