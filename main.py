@@ -98,7 +98,7 @@ for search in search_list:
 # Concatenate the DataFrames and load tweets from Google Drive
 
 # Get csv file names in output directory or google drive
-path = os.getcwd() + "/drive/MyDrive/travel/"
+path = os.getcwd() + "/drive/MyDrive/folder_name/"
 files = os.listdir(path)
 
 # Create a list to store DataFrames
